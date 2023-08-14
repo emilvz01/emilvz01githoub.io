@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+*{
+margin:0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+
+}
+
+body {
+    
+    font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    background-image: url(css/ide.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+
+
+}
+section {
+  padding: 40px;
+}
+.section-title {
+  font-size: 24px;
+  background: #135335;
+  display: block;
+  color: #eaf0e9;
+  padding-right: 150px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.box {
+  border: 2px solid #1e6e50;
+  justify-content: left; 
+  align-items:center; 
+  height: 115vh; 
+  margin: 0;
+  width: 1600px;
+  padding: 20px 20px 20px;
+  margin-bottom: 20px;
+  
+}
+.box img {
+  justify-content: center;
+  flex-direction:column ;
+  align-items: center;
+ max-height: 500px;
+ width: 500px; 
+ height: 500px;
+ margin: 0; 
+ object-fit: cover; 
+ margin: 5px;
+}
+
+.jardin pequeño1{
+text-align: center;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7))
+        url(css/img3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;  
+  text-align: center;
+    
+}
+
+.header img {
+  width: 150px; 
+  margin-top: 10px;
+}
+
+.menu {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.logo{
+color: #eaf0e9;
+font-size: 25px;
+font-weight: 800;
+
+}
+
+.menu .navbar ul li{
+position: relative;
+float: left;
+
+}
+
+.menu .navbar ul li a {
+ font-size: 18px;
+    padding: 20px;
+    color: #fdfffd;
+    display: block;
+    font-weight: 600;
+
+}
+
+.menu .navbar ul li a:hover {
+
+    color: #82ce7b;
+
+}
+#menu {
+    display: none;
+
+}
+
+.menu-icono {
+
+width: 25px;
+
+}
+
+.menu label {
+cursor: pointer;
+display: none;
+
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+
+   font-size: 75px;
+   line-height: 80px;
+   color: rgb(187, 235, 219); 
+   text-transform: uppercase;
+   margin-bottom: 35px;
+}
+
+
+.header-content p {
+font-size: 18px;
+color:#fdfcfb;
+padding: 0 250px;
+margin-bottom: 25px;
+}
+
+
+  .servicios-section {
+    height: 100px;
+    background-color: #e9ecbb; 
+    padding: 0 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  
+  
+  .servicio {
+    flex: 0 0 calc(33.33% - 20px); 
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .imagen-recuadro {
+    display: inline-block;
+    border: 1px solid #110a0a;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .imagen-recuadro img {
+    max-width: 900px;
+    height: auto;
+  }
+  .like-button {
+    background-color: #0d4124;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  padding: 0 20px;
+  }
+  
+  .precio-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .footer {
+    background-color: #2b2424;
+    padding: 20px;
+    text-align: center;
+    background-image: url(css/hojita.jpg);
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-buttons {
+    margin-top: 10px;
+}
+
+.footer-buttons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #f8f2f2;
+}
